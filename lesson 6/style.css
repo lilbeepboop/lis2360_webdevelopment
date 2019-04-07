@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/* CSS Document created by Ken Baldauf, January 26, 2011 updated August 2014*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 1.8em;
+	color: #FFFFFF;
+	background-color: #6a2d7f;
+	padding:0 40px ; 
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+	padding: 0 0 0 15px;
+}
+h1 {
+	font-size: 30px;
+	padding: 4px 0 0 15px;
+	letter-spacing: .5em;
+	line-height: 2em;
+}
+h2 {
+	font-size: 20px;
+	padding: 6px;
+	letter-spacing: 0.5em;
+	background-color: #D55BFF;
+}
+/* link styles ---------------------------- */
+a:link {
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:hover {
+	color: #D55BFF;
+}
+/* table styles -------------------------------------- */
+table {
+	border: solid #D55BFF 1px;
+	margin: 10px;
+}
+td {
+	padding: 6px;
+	border: solid #FFFFFF 1px;
+}
+th {
+	background-color: #D55BFF;
+	text-align: center;
+	padding: 6px;
+	border: solid #FFFFFF 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #FFFFFF 1px;
+}
+
+img {
+	border: solid #FFFFFF 1px;
+
+}
+iframe {
+	border: solid #FFFFFF 8px;
+	padding: 0;
+	margin: 0;
+}
+
+/* Div styles for page layout*/
+
+#container{
+	width: 900px;
+	margin: 0 auto;
+	border: 1px;
+	background-color: #D55BFF;
+	overflow: hidden;
+}
+
+
+#header{
+	width: 100%;
+	background-color: #D55BFF;
+
+}
+
+
+
+#content{
+	width: 500px;
+	padding-bottom: 40px;
+	float:left;
+}
+
+#sidebar { 
+	width: 278px; 
+	float: left;
+	margin-top: 50px;
+	margin-right: 20px;
+	background: #6a2d7f;
+	border-radius: 12px;
+	box-shadow: 10px 10px 5px #888888;
+}
+#sidebar p{
+	padding: 0;
+	float: right;
+}
+
+#footer{
+	width: 100%;
+	background-color: #D55BFF;
+	clear: both;
+
+}
+
+
