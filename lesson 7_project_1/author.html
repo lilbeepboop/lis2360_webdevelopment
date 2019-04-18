@@ -5,6 +5,7 @@
         <!-- Terri Howze September 19, 2018 -->
     <title>Skin Care Routine</title>
         <link href="style.css" rel = "stylesheet" type = "text/css">
+        <link href="style-navbar.css" rel="stylesheet" type = "text/css">
       <meta charset="UTF-8">
       <meta name="description" content = "Skin Care Routine">
       <meta name= "keywords" content = "Skin Care, Skin Type, Routine">
@@ -13,11 +14,18 @@
 </head>
 
 <body>
+
     <div id= "container">
-<div id= "header">
-        <img src="images/pexels-photo-513880.jpg" width="100%" alt="face Mask" >
+    <div id= "header">
+        <img src="images/pexels-photo-513880.jpg" width="100%" alt="face Mask">
         <h1>Your Skin Care Routine</h1>
-        <p><a href="index.html">Overview</a> | <a href="media.html">Media</a> | <a href="author.html">Author</a></p>
+        <div id = "navbar">
+            <ul  id="menu">
+                    <li><a href="index.html" class="button">Overview</a></li>
+                    <li><a href="media.html" class="button">Video</a></li>
+                    <li><a href="author.html" class="button selected">References</a></li>
+                </ul>
+        </div><!-- end of navbar-->
     </div> <!--end header -->
     <hr>
 <div id = 'content'>
