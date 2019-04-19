@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/*CSS DOCUMENT */
+
+/*---------------------------------html tag styles----------------------------*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1{
+    font-size: 2em;
+    font-style: italic;
+   
+}
+
+td {
+	padding: 6px;
+	border: solid #ffffff 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #6297F9;
+	text-align: center;
+	padding: 6px;
+	border: solid #ffffff 1px;
+}
+/*--------------------------Page Sections--------------------------*/
+#splash{
+        height: 1000px;
+        background: url(images/pexels-photo-513880.jpg) no-repeat center top fixed;
+   	    background-size: cover;  
+}
+
+#overview{
+        background-color:#D8D0AF;
+}
+
+#references{
+        background-color:#B98862;
+   	    background-size: cover;  
+}
+
+#video{
+        padding: 40px 0 60px 0;	
+        background: url(images/oilyskinblur.jpg) no-repeat center top fixed;
+        background-size:cover;
+        height: 750px;
+}
+
+#footer{
+        background-color:#D8D0AF;
+}
+
+/*--------------------------Container Styles-------------------------*/
+.container {
+  width: 960px; /* static width container always stays at this width no matter what the window size */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* ----------------- NAVIGATION BAR STYLES -------------------*/ 
+
+#navbar{
+	position: fixed; /* navbar should always be shown even when page is scrolled */
+	top: 0;
+	width: 100%;
+	height: 54px;
+	background-color: rgba(255, 255, 255, 0.8); 
+}	
+/* horizontal menu bars are typically created using a styled unordered list. Here's how! */
+ul#menu {
+	list-style: none; /* eliminates bullets */
+	/* adjust padding top to adjust nav bar vertical position */
+	padding-top: 0px;
+} 
+ul#menu li {
+	float: left; /* changes list from vertical to horizontal */
+	padding-bottom: 20px;
+} 
+ul#menu li a.button {
+	font-size: 16px;
+	text-decoration: none;
+	/* this padding defines the size of the buttons */
+	padding: 20px 100px 20px 100px; 
+}
+/* change button color when mouse hovers over */
+ul#menu li a.button:hover {
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+#title-page{
+  width: 100%;
+  padding-top: 215px; /* provides a lot of space above title to view the background image */
+  color: #D8D0AF;
+  text-align: left;
+}
+#title-page h1 {
+  font-family:'Anton', sans-serif; /* Anton is a Google Font - see link in head of index.html */
+  font-size: 80px; 	
+  text-shadow: 3px 3px #000; /* Shadow helps text to stand out from background */
+
+}
+#title-page h3 {
+  font-size: 1em;
+  font-style: italic;
+  margin: 0 80px; 
+  padding-bottom: 20px;
+  text-shadow: 2px 2px #000;
+}
+
+/*-----------------------------Footer Section---------------------------------*/
+#credits {
+  text-align: center;	
+}
+#credits table{      
+  margin: 0 auto;		/* centers the color palette table */
+}
